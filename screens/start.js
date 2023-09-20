@@ -10,7 +10,7 @@ const Start = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
             navigation.navigate("LockScreen");
-        }, 7000);
+        }, 3000);
 
         return () => clearTimeout(timer); // Clear the timer if the component unmounts.
     }, [])

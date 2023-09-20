@@ -27,6 +27,7 @@ const UserChat = ({ item }) => {
     useEffect(() => {
         fetchMessages()
     }, [])
+    // console.warn(messages);
     // console.log(messages);
     const getlastMessages = ()=>{
         const userMessages =messages.filter((message) =>message.messageType ==="text");
@@ -42,11 +43,11 @@ const UserChat = ({ item }) => {
     return (
         <Pressable onPress={() => navigation.navigate('Messages', {
             recepientId: item._id
-        })} style={{ flexDirection: 'row', alignItems: 'center', gap: 10, borderWidth: 0.7, borderColor: "D0D0D0", borderTopWidth: 0, borderWidth: 0, borderLeftWidth: 0, padding: 10 }}>
-            <Image
+        })} style={{ flexDirection: 'row', alignItems: 'center', gap: 10, borderWidth: 0.7, borderColor: "#D0D0D0", borderTopWidth: 0, borderWidth: 0, borderLeftWidth: 0, padding: 15,paddingLeft:20 }}>
+            {/* <Image
                 style={{ width: 50, height: 50, borderRadius: 25, resizeMode: "cover" }}
                 source={{ uri: item?.image }}
-            />
+            /> */}
             <View style={{ flex: 1 }}>
                 <Text style={{ fontSize: 15, fontWeight: '500' }}>{item.name}</Text>
                 {

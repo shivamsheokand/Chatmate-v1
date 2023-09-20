@@ -262,7 +262,7 @@ app.get('/messages/:senderId/:recepientId', async (req, res) => {
                 { senderId: senderId, recepientId: recepientId },
                 { senderId: recepientId, recepientId: senderId }
             ]
-        }).populate("senderId", "_id name");
+        }).populate("senderId", "_id name image");
 
         res.json(messages);
     } catch (err) {
