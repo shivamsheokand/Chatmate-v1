@@ -41,7 +41,7 @@ I'm always open to collaborations, discussions, and new opportunities. Feel free
 
 Thanks for stopping by and checking out my work!
 
-# Chatmate-v1
+## 👻 Chatmate-v1
 - mongodb Backend Setup
 create database on mongo db
 create api folder and run # npm init 
