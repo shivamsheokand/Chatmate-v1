@@ -42,24 +42,5 @@ I'm always open to collaborations, discussions, and new opportunities. Feel free
 Thanks for stopping by and checking out my work!
 
 ## 👻 Chatmate-v1
-- mongodb Backend Setup
-create database on mongo db
-create api folder and run # npm init 
-to create pakeg.json file
-- yarn add express cors body-parser mongoose multer nodemon passport passport-local
-- yarn add jsonwebtoken
-- yarn add axios
-- npx expo install @react-native-async-storage/async-storage
-- yarn add jwt-decode
-- npm i multer
-- yarn add react-native-emoji-selector
-- npx expo install expo-image-picker
-- npx expo install expo-font
-- npm install react-native-screens react-native-safe-area-context
-- npx expo install react-native-screens react-native-safe-area-context
-- npm install @react-navigation/native
-- npm install @react-navigation/stack
-- npx expo install react-native-gesture-handler
-- npm install react-native-gesture-handler
-- npm install @react-navigation/native-stack
-# npm start 
+- mongodb Backend
+# npm i
