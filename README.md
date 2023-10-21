@@ -42,5 +42,5 @@ I'm always open to collaborations, discussions, and new opportunities. Feel free
 Thanks for stopping by and checking out my work!
 
 ## 👻 Chatmate-v1
-- mongodb Backend
-# npm i
+- mongodb DB
+
